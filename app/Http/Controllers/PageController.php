@@ -8,10 +8,30 @@ class PageController extends Controller
 {
     public function index()
     {
-        return "Selamat Datang";
+        return view('home');
+    }
+
+    public function news()
+    {
+        return view('news');
     }
 
     public function about()
+    {
+        return view('about');
+    }
+
+    public function karir()
+    {
+        return view('karir');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function about1()
     {
         return "Rifky Fadillah - NIS: ";
     }
