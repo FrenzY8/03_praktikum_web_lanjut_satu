@@ -16,3 +16,11 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'index']);
 Route::get('/about', [PageController::class, 'about']);
+Route::get('/service', [PageController::class, 'service']);
+Route::get('/team', [PageController::class, 'team']);
+Route::get('/price', [PageController::class, 'price']);
+Route::get('/blog', [PageController::class, 'blog']);
+Route::get('/detail', [PageController::class, 'detail']);
+Route::get('/contact', [PageController::class, 'contact']);
+Route::get('/appointment', [PageController::class, 'appointment']);
+Route::get('/search', [PageController::class, 'search']);
