@@ -55,4 +55,9 @@ class PageController extends Controller
     {
         return view('search');
     }
+
+    public function testimonial()
+    {
+        return view('testimonial');
+    }
 }
