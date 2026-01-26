@@ -24,3 +24,4 @@ Route::get('/detail', [PageController::class, 'detail']);
 Route::get('/contact', [PageController::class, 'contact']);
 Route::get('/appointment', [PageController::class, 'appointment']);
 Route::get('/search', [PageController::class, 'search']);
+Route::get('/testimonial', [PageController::class, 'testimonial']);
